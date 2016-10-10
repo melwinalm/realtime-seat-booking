@@ -1,10 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Realtime Seat Booking</title>
+    <link rel="stylesheet" href="css/siimple.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/firebase.js"></script>
+    <script src="js/app.js"></script>
 </head>
+
 <body>
-    
+
+    <h1>Realtime Seat Booking</h1>
+
+    <div class="col-3">
+        <input type="text" class="form-input" placeholder="Email ID">
+        <div class="btn">LOGIN</div>
+    </div>
+
+
+    <div class="grid grid-fluid">
+        <div class="col-6">
+            <div class="row">
+                <div class="col-4">Avengers 2
+                    <div class="btn btn-small">Book</div>
+                </div>
+                <div class="col-4">Avengers 2
+                    <div class="btn btn-small">Book</div>
+                </div>
+                <div class="col-4">Avengers 2
+                    <div class="btn btn-small">Book</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">Avengers 2
+                    <div class="btn btn-small">Book</div>
+                </div>
+                <div class="col-4">Avengers 2
+                    <div class="btn btn-small">Book</div>
+                </div>
+                <div class="col-4">Avengers 2
+                    <div class="btn btn-small">Book</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">Avengers 2
+                    <div class="btn btn-small">Book</div>
+                </div>
+                <div class="col-4">Avengers 2
+                    <div class="btn btn-small">Book</div>
+                </div>
+                <div class="col-4">Avengers 2
+                    <div class="btn btn-small">Book</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">Avengers 2
+                    <div class="btn btn-small">Book</div>
+                </div>
+                <div class="col-4">Avengers 2
+                    <div class="btn btn-small">Book</div>
+                </div>
+                <div class="col-4">Avengers 2
+                    <div class="btn btn-small">Book</div>
+                </div>
+            </div>
+
+            <div>
+                <img src="images/none.png" />Available Seat(s)
+                <br/>
+                <img src="images/selected.png" />Selected Seat(s)
+                <br />
+                <img src="images/booked.png" />Booked Seat(s)
+            </div>
+
+
+        </div>
+
+
+
+        <div id="seats" class="col-6">
+
+        </div>
+    </div>
+
 </body>
+
 </html>
