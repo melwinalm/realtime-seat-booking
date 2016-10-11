@@ -17,77 +17,40 @@
 
     <h1>Realtime Seat Booking</h1>
 
-    <div class="col-3">
-        <input type="text" class="form-input" placeholder="Email ID">
-        <div class="btn">LOGIN</div>
-    </div>
-
-
     <div class="grid grid-fluid">
-        <div class="col-6">
-            <div class="row">
-                <div class="col-4">Avengers 2
-                    <div class="btn btn-small">Book</div>
-                </div>
-                <div class="col-4">Avengers 2
-                    <div class="btn btn-small">Book</div>
-                </div>
-                <div class="col-4">Avengers 2
-                    <div class="btn btn-small">Book</div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-4">Avengers 2
-                    <div class="btn btn-small">Book</div>
-                </div>
-                <div class="col-4">Avengers 2
-                    <div class="btn btn-small">Book</div>
-                </div>
-                <div class="col-4">Avengers 2
-                    <div class="btn btn-small">Book</div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-4">Avengers 2
-                    <div class="btn btn-small">Book</div>
-                </div>
-                <div class="col-4">Avengers 2
-                    <div class="btn btn-small">Book</div>
-                </div>
-                <div class="col-4">Avengers 2
-                    <div class="btn btn-small">Book</div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-4">Avengers 2
-                    <div class="btn btn-small">Book</div>
-                </div>
-                <div class="col-4">Avengers 2
-                    <div class="btn btn-small">Book</div>
-                </div>
-                <div class="col-4">Avengers 2
-                    <div class="btn btn-small">Book</div>
-                </div>
+        <div class="row">
+            <div class="col-3">
+                <input id="emailId" type="email" class="form-input" placeholder="Email ID">
+                <input class="btn" type="button" value="Login" onclick="Login()"/>
             </div>
 
-            <div>
-                <img src="images/none.png" />Available Seat(s)
-                <br/>
-                <img src="images/selected.png" />Selected Seat(s)
-                <br />
-                <img src="images/booked.png" />Booked Seat(s)
+            <div id="seatStructure" class="col-9">
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-6">
+                        <h3>Avengers 2</h3>
+                    </div>
+                    <div class="col-3"></div>
+                </div>
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div id="seats" class="col-6">
+
+                    </div>
+                    <div class="col-3"></div>
+                </div>
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-6">
+                        <img src="images/none.png" />Available Seat(s)
+                        <img src="images/selected.png" />Selected Seat(s)
+                        <img src="images/booked.png" />Booked Seat(s)
+                    </div>
+                    <div class="col-3"></div>
+                </div>
             </div>
-
-
-        </div>
-
-
-
-        <div id="seats" class="col-6">
-
         </div>
     </div>
-
 </body>
 
 </html>
