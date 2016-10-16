@@ -8,6 +8,11 @@ $(document).ready(function () {
         showSeats();
     };
 
+    Reset = function() {
+        firebase.remove();
+        window.location.reload();
+    }
+
 
     // 0 - unbooked seat
     // 1 - booked seat
@@ -31,7 +36,7 @@ $(document).ready(function () {
             $('#seats').on('click', '#seat' + i + j, function () {
 
                 let string = 'seat' + i + j;
-                
+
                 if ($('#seat' + i + j).attr('src') == 'images/booked.png') {
                     // Do nothing
                 }
@@ -81,8 +86,9 @@ $(document).ready(function () {
         });
     }
 
-    function Reset(){
-        firebase.remove();
-    }
+    
+
 
 });
+
+
