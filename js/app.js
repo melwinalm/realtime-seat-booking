@@ -83,4 +83,8 @@ $(document).ready(function () {
         });
     }
 
+    function Reset(){
+        firebase.remove();
+    }
+
 });
