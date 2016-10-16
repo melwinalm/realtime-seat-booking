@@ -1,6 +1,8 @@
-/*img{
-    margin: 5px;
-}*/
+img{
+    margin: 2px;
+    width: 25px;
+    height: 25px;
+}
 
 #seatStructure{ 
     visibility: hidden;
@@ -14,7 +16,3 @@
     -webkit-transform: translateX(-50%);
 }
 
-img{
-    width: 25px;
-    height: 25px;
-}
