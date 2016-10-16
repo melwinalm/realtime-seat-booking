@@ -13,3 +13,8 @@
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
 }
+
+img{
+    width: 20px;
+    height: 20px;
+}
