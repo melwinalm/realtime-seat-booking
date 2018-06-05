@@ -23,4 +23,6 @@ or
    - And type `git clone` and paste the following URL `https://github.com/melwinalm/Realtime-Seat-Booking`
    - Press **Enter**
 
-Not yet complete
+## Live Demo:
+
+Open this link for live demo: melwinalm.github.io/Realtime-Seat-Booking
