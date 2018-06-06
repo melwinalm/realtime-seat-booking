@@ -11,6 +11,8 @@ To see the demo you need two browsers, or two windows or two tabs.
    
 This is just a concept which explains how Firebase can be used to book seats in realtime.
 
+Click on `Reset Seats` button on the header to clear all the information.
+
 ## Technologies Used
 
    - Angular Js - Is a dependency for Firebase
